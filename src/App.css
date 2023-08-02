@@ -1,0 +1,104 @@
+:root {
+    --text-color: #5F6368;
+    --hover-color: #F1F3F4;
+    --gray-color: #D1D5DB;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* tooltip  */
+.mantine-Tooltip-tooltip {
+    font-size: 12px;
+    background-color: #181818;
+}
+
+.tooltip-content{
+    font-size: 12px;
+}
+
+.tooltip:hover + .tooltip-content {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+/* pagination  */
+.mantine-Pagination-control {
+    background-color: transparent !important;
+    border: none;
+
+}
+.mantine-Pagination-control[data-active="true"]{
+    color: blue;
+}
+
+.mantine-Pagination-control:disabled{
+    cursor: auto ;
+}
+
+/* sidebar  */
+
+
+.create-btn:hover {
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.302), 0 1px 3px 1px rgba(60,64,67,.149);
+    color: #174EA6;
+    background-color: #F6FAFE;
+    transition: all 0.5s;
+}
+
+.side-link.active .side-nav {
+    color: #1967D2;
+    background-color: #E8F0FE;
+}
+
+.side-link.active svg {
+    fill: #1967D2;
+}
+
+/* mobile-sidebar  */
+.mantine-Drawer-body {
+    padding: 0;
+}
+
+.row:nth-of-type(10n+1) .profile{
+    background-color: rgb(232, 152, 4);
+}
+
+.row:nth-of-type(10n+2) .profile{
+    background-color: rgb(140, 24, 248);
+}
+
+.row:nth-of-type(10n+3) .profile{
+    background-color: rgb(70, 3, 133);
+}
+
+.row:nth-of-type(10n+4) .profile{
+    background-color: rgb(249, 82, 20);
+}
+
+.row:nth-of-type(10n+5) .profile{
+    background-color: rgb(1, 81, 1);
+}
+
+.row:nth-of-type(10n+6) .profile{
+    background-color: rgb(119, 5, 5);
+}
+
+.row:nth-of-type(10n+7) .profile{
+    background-color: rgb(104, 61, 3);
+}
+
+.row:nth-of-type(10n+8) .profile{
+    background-color: gray;
+}
+
+.row:nth-of-type(10n+9) .profile{
+    background-color: rgb(60, 59, 59);
+}
+
+.row:nth-of-type(10n+10) .profile{
+    background-color: rgb(72, 72, 240);
+}
+
+
